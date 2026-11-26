@@ -1,0 +1,1284 @@
+{
+ "meta": {
+  "title": "Why airplane windows have a tiny hole",
+  "brand": "Small Wonders Lab",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+   "voice": "en-US-AndrewNeural",
+   "rate": "+12%",
+   "pitch": "+0Hz"
+  },
+  "theme": {
+   "skyTop": "#6f96bd",
+   "skyBottom": "#cfdde9",
+   "tiltShift": true,
+   "vignette": 0.26,
+   "captionY": 0.66,
+   "captionSize": 64
+  },
+  "bed": {
+   "sfx": "cabin_hum",
+   "vol": 0.1
+  },
+  "wps": 2.9,
+  "gap": 0.14,
+  "tail": 0.6,
+  "_camera_notes": "Set A (jet) at x=0, Set B (window module) at x=14, Set C (pressure cross-section) at x=28. Last key of b15 == first key of b01 so the video loops."
+ },
+ "whips": [
+  {
+   "beat": "b02",
+   "at": 0.6,
+   "len": 0.6
+  },
+  {
+   "beat": "b04",
+   "at": 0.25,
+   "len": 0.6
+  },
+  {
+   "beat": "b15",
+   "at": 0.7,
+   "len": 0.7
+  }
+ ],
+ "beats": [
+  {
+   "id": "b01",
+   "section": "hook",
+   "text": "The tiny hole in your airplane window is secretly deciding which layer breaks first.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      1.2,
+      2.9,
+      11.5
+     ],
+     "look": [
+      0.1,
+      2.4,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      0.9,
+      2.7,
+      9.4
+     ],
+     "look": [
+      0.15,
+      2.4,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "whoosh_soft",
+     "atFrac": 0,
+     "vol": 0.3
+    },
+    {
+     "sfx": "sparkle",
+     "atWord": "secretly",
+     "vol": 0.25
+    },
+    {
+     "sfx": "tick",
+     "atWord": "hole",
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "section": "context",
+   "text": "Look closely, and your window is not one sheet. It is three layers of plastic.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      0.9,
+      2.7,
+      9.4
+     ],
+     "look": [
+      0.15,
+      2.4,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.45,
+     "pos": [
+      0.5,
+      2.5,
+      2.6
+     ],
+     "look": [
+      0.15,
+      2.39,
+      0.44
+     ],
+     "fov": 26
+    },
+    {
+     "at": 0.62,
+     "pos": [
+      6.5,
+      2.6,
+      8
+     ],
+     "look": [
+      8,
+      2.5,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.78,
+     "pos": [
+      14,
+      2.5,
+      9.5
+     ],
+     "look": [
+      14,
+      2.45,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      14,
+      2.5,
+      8.6
+     ],
+     "look": [
+      14,
+      2.5,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "atFrac": 0.55,
+     "vol": 0.45
+    },
+    {
+     "sfx": "click",
+     "atWord": "three",
+     "vol": 0.45
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "section": "context",
+   "text": "An outer pane faces the sky. A middle pane waits behind it. And a thin inner pane keeps scratches away.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      14,
+      2.5,
+      8.6
+     ],
+     "look": [
+      14,
+      2.5,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.4,
+     "pos": [
+      16.6,
+      2.6,
+      6.8
+     ],
+     "look": [
+      14,
+      2.55,
+      0
+     ],
+     "fov": 32
+    },
+    {
+     "at": 0.75,
+     "pos": [
+      14.3,
+      2.5,
+      7.4
+     ],
+     "look": [
+      14,
+      2.5,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      14,
+      2.5,
+      8.4
+     ],
+     "look": [
+      14,
+      2.5,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "slide",
+     "atWord": "outer",
+     "vol": 0.35
+    },
+    {
+     "sfx": "slide",
+     "atWord": "middle",
+     "vol": 0.35
+    },
+    {
+     "sfx": "slide",
+     "atWord": "inner",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "section": "setup",
+   "text": "At cruising altitude, the air outside is thin and freezing. Inside, the cabin is pressurized, so you can breathe.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      14,
+      2.5,
+      8.4
+     ],
+     "look": [
+      14,
+      2.5,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.12,
+     "pos": [
+      18,
+      2.5,
+      9
+     ],
+     "look": [
+      20,
+      2.4,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.3,
+     "pos": [
+      24,
+      2.3,
+      14
+     ],
+     "look": [
+      26.5,
+      1.9,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.45,
+     "pos": [
+      28.1,
+      2.2,
+      17.5
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.1,
+      2.2,
+      17.2
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "atFrac": 0.15,
+     "vol": 0.45
+    },
+    {
+     "sfx": "air_rush",
+     "atWord": "freezing",
+     "vol": 0.25
+    },
+    {
+     "sfx": "hiss",
+     "atWord": "pressurized",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "section": "setup",
+   "text": "That air pushes outward on everything, including the window. So the outer pane is built to take the whole push.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.1,
+      2.2,
+      17.2
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.1,
+      2.1,
+      12.5
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "thud",
+     "atWord": "pushes",
+     "vol": 0.4
+    },
+    {
+     "sfx": "clunk",
+     "atWord": "built",
+     "vol": 0.35
+    },
+    {
+     "sfx": "thud",
+     "atWord": "push",
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "section": "naive-fix",
+   "text": "But, seal the space between the panes, and the middle pane has to share the load.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.1,
+      2.1,
+      12.5
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.4,
+      2.0,
+      8.6
+     ],
+     "look": [
+      28.0,
+      1.9,
+      0
+     ],
+     "fov": 32
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "clunk",
+     "atWord": "seal",
+     "vol": 0.35
+    },
+    {
+     "sfx": "creak",
+     "atWord": "share",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "section": "fails",
+   "text": "Flight after flight, it would wear down, and the spare would no longer be a spare.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.4,
+      2.0,
+      8.6
+     ],
+     "look": [
+      28.0,
+      1.9,
+      0
+     ],
+     "fov": 32
+    },
+    {
+     "at": 1,
+     "pos": [
+      27.6,
+      2.0,
+      7.4
+     ],
+     "look": [
+      27.95,
+      1.8,
+      0
+     ],
+     "fov": 32
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "creak",
+     "atWord": "wear",
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "section": "fails",
+   "text": "And a sealed gap could trap moisture, so the window might fog and frost over.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      27.6,
+      2.0,
+      7.4
+     ],
+     "look": [
+      27.95,
+      1.8,
+      0
+     ],
+     "fov": 32
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.4,
+      2.0,
+      6.6
+     ],
+     "look": [
+      28.4,
+      1.9,
+      0
+     ],
+     "fov": 32
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "drip",
+     "atWord": "moisture",
+     "vol": 0.45
+    },
+    {
+     "sfx": "drip",
+     "atWord": "fog",
+     "vol": 0.35
+    },
+    {
+     "sfx": "hiss",
+     "atWord": "frost",
+     "vol": 0.2
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "section": "insight",
+   "text": "Finally, engineers added a pinprick hole to the middle pane, near the bottom.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.4,
+      2.0,
+      6.6
+     ],
+     "look": [
+      28.4,
+      1.9,
+      0
+     ],
+     "fov": 32
+    },
+    {
+     "at": 0.45,
+     "pos": [
+      28.0,
+      1.1,
+      4.8
+     ],
+     "look": [
+      28.0,
+      0.9,
+      0
+     ],
+     "fov": 30
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.0,
+      0.95,
+      4.4
+     ],
+     "look": [
+      28.0,
+      0.85,
+      0
+     ],
+     "fov": 30
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "pop",
+     "atWord": "added",
+     "vol": 0.4
+    },
+    {
+     "sfx": "ding",
+     "atWord": "pinprick",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "section": "mechanism",
+   "text": "Cabin air seeps through it into the gap. Now both sides of the middle pane match, and it carries almost nothing.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.0,
+      0.95,
+      4.4
+     ],
+     "look": [
+      28.0,
+      0.85,
+      0
+     ],
+     "fov": 30
+    },
+    {
+     "at": 0.3,
+     "pos": [
+      27.85,
+      1.3,
+      6.5
+     ],
+     "look": [
+      27.85,
+      1.25,
+      0
+     ],
+     "fov": 32
+    },
+    {
+     "at": 1,
+     "pos": [
+      27.95,
+      1.5,
+      6.8
+     ],
+     "look": [
+      27.9,
+      1.3,
+      0
+     ],
+     "fov": 32
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "air_rush",
+     "atWord": "seeps",
+     "vol": 0.35
+    },
+    {
+     "sfx": "sparkle",
+     "atWord": "match",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "section": "mechanism",
+   "text": "Moisture can escape the same way, which helps keep the view clear.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      27.95,
+      1.5,
+      6.8
+     ],
+     "look": [
+      27.9,
+      1.3,
+      0
+     ],
+     "fov": 32
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.2,
+      1.8,
+      6.6
+     ],
+     "look": [
+      28.2,
+      1.6,
+      0
+     ],
+     "fov": 32
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "drip",
+     "atWord": "escape",
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "section": "payoff",
+   "text": "If the outer pane ever cracks, the middle pane takes over and holds the cabin's air.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.3,
+      1.8,
+      6.0
+     ],
+     "look": [
+      28.3,
+      1.6,
+      0
+     ],
+     "fov": 32
+    },
+    {
+     "at": 0.3,
+     "pos": [
+      28.6,
+      2.3,
+      9.5
+     ],
+     "look": [
+      28.5,
+      2.0,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.5,
+      2.2,
+      10
+     ],
+     "look": [
+      28.5,
+      2.0,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "crack",
+     "atWord": "cracks",
+     "vol": 0.6
+    },
+    {
+     "sfx": "thud",
+     "atWord": "holds",
+     "vol": 0.35
+    },
+    {
+     "sfx": "swell",
+     "atWord": "air",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "section": "metaphor",
+   "text": "One pane works while the other waits, like a spare tire.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.5,
+      2.2,
+      10
+     ],
+     "look": [
+      28.5,
+      2.0,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      28.2,
+      2.2,
+      13.5
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "pop",
+     "atWord": "works",
+     "vol": 0.35
+    },
+    {
+     "sfx": "pop",
+     "atWord": "waits",
+     "vol": 0.3
+    },
+    {
+     "sfx": "click",
+     "atWord": "spare",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "section": "name",
+   "text": "That is the breather hole.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      28.2,
+      2.2,
+      13.5
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.5,
+     "pos": [
+      28.0,
+      1.1,
+      5.2
+     ],
+     "look": [
+      27.95,
+      0.85,
+      0
+     ],
+     "fov": 30
+    },
+    {
+     "at": 1,
+     "pos": [
+      27.95,
+      1.0,
+      4.4
+     ],
+     "look": [
+      27.95,
+      0.85,
+      0
+     ],
+     "fov": 30
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "ding",
+     "atWord": "breather",
+     "vol": 0.4
+    },
+    {
+     "sfx": "sparkle",
+     "atWord": "hole",
+     "vol": 0.25
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "section": "today-loop",
+   "text": "Today, it sits at the bottom of your airplane window.",
+   "cam": [
+    {
+     "at": 0,
+     "pos": [
+      27.95,
+      1.0,
+      4.4
+     ],
+     "look": [
+      27.95,
+      0.85,
+      0
+     ],
+     "fov": 30
+    },
+    {
+     "at": 0.4,
+     "pos": [
+      28.1,
+      2.2,
+      17.5
+     ],
+     "look": [
+      28.1,
+      1.9,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.7,
+     "pos": [
+      20,
+      2.5,
+      12
+     ],
+     "look": [
+      14,
+      2.4,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 0.9,
+     "pos": [
+      2.5,
+      2.8,
+      11.8
+     ],
+     "look": [
+      0.3,
+      2.4,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "at": 1,
+     "pos": [
+      1.2,
+      2.9,
+      11.5
+     ],
+     "look": [
+      0.1,
+      2.4,
+      0
+     ],
+     "fov": 34
+    }
+   ],
+   "sfx": [
+    {
+     "sfx": "whoosh_soft",
+     "atWord": "Today",
+     "vol": 0.3
+    },
+    {
+     "sfx": "whoosh",
+     "atFrac": 0.62,
+     "vol": 0.5
+    }
+   ]
+  }
+ ],
+ "framing": [
+  {
+   "label": "b01 start: whole jet in frame",
+   "beat": "b01",
+   "at": 0.001,
+   "points": [
+    [
+     -1.45,
+     2.3,
+     0.3
+    ],
+    [
+     1.45,
+     2.3,
+     -0.3
+    ],
+    [
+     0,
+     3.2,
+     0
+    ],
+    [
+     0,
+     0,
+     2.2
+    ]
+   ]
+  },
+  {
+   "label": "b01 end: jet + focal window",
+   "beat": "b01",
+   "at": 0.999,
+   "points": [
+    [
+     0.15,
+     2.39,
+     0.44
+    ],
+    [
+     -1.3,
+     2.3,
+     0.2
+    ],
+    [
+     1.3,
+     2.3,
+     -0.2
+    ]
+   ]
+  },
+  {
+   "label": "b02 mid: focal window close-up",
+   "beat": "b02",
+   "at": 0.45,
+   "points": [
+    [
+     0.15,
+     2.39,
+     0.44
+    ]
+   ]
+  },
+  {
+   "label": "b02 end: window module",
+   "beat": "b02",
+   "at": 0.999,
+   "points": [
+    [
+     14,
+     2.55,
+     0
+    ],
+    [
+     12.7,
+     0.45,
+     0
+    ],
+    [
+     15.3,
+     4.65,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b03: exploded panes (side orbit)",
+   "beat": "b03",
+   "at": 0.4,
+   "points": [
+    [
+     14,
+     2.55,
+     -0.83
+    ],
+    [
+     14,
+     2.55,
+     0.83
+    ],
+    [
+     14,
+     2.55,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b04: whole cross-section",
+   "beat": "b04",
+   "at": 0.6,
+   "points": [
+    [
+     25.4,
+     0.25,
+     0
+    ],
+    [
+     30.7,
+     3.25,
+     0
+    ],
+    [
+     25.4,
+     3.25,
+     0
+    ],
+    [
+     30.7,
+     0.25,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b05 end: pressure on panes",
+   "beat": "b05",
+   "at": 0.999,
+   "points": [
+    [
+     26.7,
+     0.25,
+     0
+    ],
+    [
+     29.0,
+     3.25,
+     0
+    ],
+    [
+     27.9,
+     1.7,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b06: panes + arrows",
+   "beat": "b06",
+   "at": 0.6,
+   "points": [
+    [
+     27.1,
+     1.2,
+     0
+    ],
+    [
+     28.7,
+     3.0,
+     0
+    ],
+    [
+     27.9,
+     0.5,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b08: fogged gap",
+   "beat": "b08",
+   "at": 0.6,
+   "points": [
+    [
+     28.37,
+     0.6,
+     0
+    ],
+    [
+     28.37,
+     3.0,
+     0
+    ],
+    [
+     28.0,
+     1.7,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b09: drilling the hole",
+   "beat": "b09",
+   "at": 0.7,
+   "points": [
+    [
+     27.9,
+     0.77,
+     0
+    ],
+    [
+     28.5,
+     1.2,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b10: air through the hole",
+   "beat": "b10",
+   "at": 0.5,
+   "points": [
+    [
+     27.1,
+     0.77,
+     0
+    ],
+    [
+     28.5,
+     1.8,
+     0
+    ],
+    [
+     27.9,
+     0.77,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b12: outer pane cracks",
+   "beat": "b12",
+   "at": 0.5,
+   "points": [
+    [
+     28.87,
+     1.9,
+     0
+    ],
+    [
+     27.9,
+     1.2,
+     0
+    ],
+    [
+     28.87,
+     3.2,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b14 end: hole + ring",
+   "beat": "b14",
+   "at": 0.999,
+   "points": [
+    [
+     27.9,
+     0.77,
+     0
+    ],
+    [
+     27.9,
+     0.97,
+     0
+    ]
+   ]
+  },
+  {
+   "label": "b15 end: back at jet (loop)",
+   "beat": "b15",
+   "at": 0.999,
+   "points": [
+    [
+     -1.45,
+     2.3,
+     0.3
+    ],
+    [
+     1.45,
+     2.3,
+     -0.3
+    ]
+   ]
+  }
+ ]
+}

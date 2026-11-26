@@ -1,0 +1,32 @@
+{
+  "name": "miniature-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "9:16 miniature-diorama explainer short, Remotion + React Three Fiber. Code-only project: render on your own machine.",
+  "scripts": {
+    "sfx": "node scripts/generate-sfx.mjs",
+    "voice": "python3 scripts/make_voiceover.py",
+    "timeline": "node scripts/build-timeline.mjs",
+    "studio": "npm run timeline && remotion studio src/index.ts",
+    "still": "npm run timeline && remotion still src/index.ts Explainer out/still.png --frame=60",
+    "render": "npm run timeline && remotion render src/index.ts Explainer out/video.mp4",
+    "check": "npm run timeline && npx tsx scripts/check-framing.ts",
+    "lint:script": "python3 scripts/lint_script.py src/story/story.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.2.0",
+    "@remotion/cli": "4.0.455",
+    "@remotion/google-fonts": "4.0.455",
+    "@remotion/three": "4.0.455",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.455",
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/three": "0.170.0",
+    "typescript": "5.8.3"
+  }
+}

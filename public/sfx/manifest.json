@@ -1,0 +1,80 @@
+{
+  "whoosh": {
+    "dur": 0.95
+  },
+  "whoosh_soft": {
+    "dur": 0.8
+  },
+  "tick": {
+    "dur": 0.07
+  },
+  "click": {
+    "dur": 0.12
+  },
+  "pop": {
+    "dur": 0.22
+  },
+  "thud": {
+    "dur": 0.6
+  },
+  "clunk": {
+    "dur": 0.7
+  },
+  "metal_clank": {
+    "dur": 1.1
+  },
+  "ding": {
+    "dur": 1.6
+  },
+  "sparkle": {
+    "dur": 0.9
+  },
+  "swell": {
+    "dur": 1.9
+  },
+  "riser": {
+    "dur": 1.6
+  },
+  "air_rush": {
+    "dur": 1.2
+  },
+  "hiss": {
+    "dur": 0.6
+  },
+  "crack": {
+    "dur": 0.6
+  },
+  "creak": {
+    "dur": 0.95
+  },
+  "slide": {
+    "dur": 0.45
+  },
+  "drip": {
+    "dur": 0.35
+  },
+  "drill": {
+    "dur": 0.7
+  },
+  "servo": {
+    "dur": 1.1
+  },
+  "water": {
+    "dur": 1.6
+  },
+  "rumble_pass": {
+    "dur": 2.4
+  },
+  "beep": {
+    "dur": 0.22
+  },
+  "cabin_hum": {
+    "dur": 12
+  },
+  "room_tone": {
+    "dur": 12
+  },
+  "machine_hum": {
+    "dur": 12
+  }
+}
